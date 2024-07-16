@@ -22,8 +22,8 @@ export const Footer = () => {
                 <a href="https://www.linkedin.com/in/sakshi-bhavasar-84781a214/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="" /></a>
                 <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="" /></a>
                 <a href="https://www.instagram.com/sam_bhavsar_1904" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="" /></a>
-                <a href="https://www.instagram.com/sam_bhavsar_1904" target="_blank" rel="noopener noreferrer"><img className="white-icon" src={navIcon4} alt="" /></a>
-                <a href="https://www.instagram.com/sam_bhavsar_1904" target="_blank" rel="noopener noreferrer"><img className="white-icon" src={navIcon5} alt="" /></a>
+                <a href="https://x.com/Sakshi_B1904" target="_blank" rel="noopener noreferrer"><img className="white-icon" src={navIcon4} alt="" /></a>
+                <a href="https://github.com/SakshiCbhavsar" target="_blank" rel="noopener noreferrer"><img className="white-icon" src={navIcon5} alt="" /></a>
             </div>
             <p>Copyright Sakshi Bhavsar 2024.</p>
           </Col>

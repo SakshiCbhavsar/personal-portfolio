@@ -69,7 +69,7 @@ export const AboutMe = () => {
         <div className="row">
           <div className="col-md-6 mb-4">
             <h3>UI & UX Design</h3>
-            <p>Enhancing user interfaces with intuitive designs to im- prove user experience and engagement.
+            <p>Enhancing user interfaces with intuitive designs to improve user experience and engagement.
             </p>
           </div>
           <div className="col-md-6 mb-4">
@@ -81,7 +81,7 @@ export const AboutMe = () => {
         <div className="row">
         <div className="col-md-6 mb-4">
             <h3>Continuous Integration and Deployment (CI/CD)</h3>
-            <p>Setting up CI/CD pipelines to automate software deliv- ery processes, ensuring faster and more reliable deployments.
+            <p>Setting up CI/CD pipelines to automate software delivery processes, ensuring faster and more reliable deployments.
             </p>
           </div>
           <div className="col-md-6 mb-4">

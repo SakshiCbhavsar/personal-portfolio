@@ -53,13 +53,13 @@ export const Skills = () => {
                   <CircularProgress percentage={60} label="React" />
                 </div>
                 <div className="item">
-                  <CircularProgress percentage={85} label="Automation" />
+                  <CircularProgress percentage={85} label="Automation Testing" />
                 </div>
                 <div className="item">
                   <CircularProgress percentage={90} label="Selenium" />
                 </div>
                 <div className="item">
-                  <CircularProgress percentage={65} label="Database Managemnet" />
+                  <CircularProgress percentage={65} label="Database Management" />
                 </div>
                 <div className="item">
                   <CircularProgress percentage={75} label="CI/CD" />
