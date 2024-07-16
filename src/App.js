@@ -19,9 +19,9 @@ function App() {
     setShowAboutMe(link === 'aboutMe');
   };
 
-  const handleHideAboutMe = () => {
-    setShowAboutMe(false);
-  };
+  // const handleHideAboutMe = () => {
+  //   setShowAboutMe(false);
+  // };
 
   return (
     <div className="App">

@@ -25,7 +25,7 @@ export const AboutMe = () => {
             <div className="image-overlay">
               <span className="image-text">SAKSHI BHAVSAR</span>
             </div>
-            <img src={myImage} alt="My Image" className="img-fluid grayscale-image" />
+            <img src={myImage} alt="Sakshi Bhavsar" className="img-fluid grayscale-image" />
           </div>
           <div className="col-md-6 mb-4">
             <h3>A Bit About Myself</h3>
@@ -52,7 +52,6 @@ export const AboutMe = () => {
             </p>
           </div>
           <div className="col-md-6 mb-4">
-           <h1></h1>
             <h3>Back-end Development</h3>
             <p>Designing and developing robust server-side applications with Spring Boot, RESTful API Design. Microservices Architecture, MVC, and Hibernate.</p>
           </div>

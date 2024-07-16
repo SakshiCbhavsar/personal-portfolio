@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/logo.svg';
 import { HashLink } from 'react-router-hash-link';
-import Download_CV from "./Download_CV";
+import DownloadCV  from "./Download_CV";
 
 export const NavBar = ({ onToggleAboutMe, activeLink }) => {
   const [scrolled, setScrolled] = useState(false);
@@ -45,7 +45,7 @@ export const NavBar = ({ onToggleAboutMe, activeLink }) => {
             <HashLink to='#connect'>
               <button className="vvd"><span>Let’s Connect</span></button>
             </HashLink>
-            <Download_CV/>
+            <DownloadCV />
           </span>
         </Navbar.Collapse>
       </Container>

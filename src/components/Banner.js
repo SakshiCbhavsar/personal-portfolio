@@ -4,9 +4,7 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
-import ParticlesBackground from "./ParticlesBackground";
-import { Link } from 'react-scroll'; 
-import Download_CV from './Download_CV';
+import { Link } from 'react-scroll';
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -16,14 +14,6 @@ export const Banner = () => {
   const [index, setIndex] = useState(1);
   const toRotate = ["Web Developer", "Web Designer", "UI/UX Designer", "Full Stack Developer"];
   const period = 2000;
-
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => { clearInterval(ticker) };
-  }, [text]);
 
   const tick = () => {
     let i = loopNum % toRotate.length;
@@ -49,6 +39,14 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
+
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
+
+    return () => { clearInterval(ticker) };
+  }, [delta, tick]);
 
   return (
     <section className="banner" id="home">
