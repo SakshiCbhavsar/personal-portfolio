@@ -2,9 +2,9 @@ import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projectImge1 from "../assets/img/project-img_1 (1).png";
 import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/Eccomarce_Backend2.jpg";
+import projImg2 from "../assets/img/Eccomarce_Backend3.jpg";
 import projImg3 from "../assets/img/Reach_My_india_Img.png";
-import projImg4 from "../assets/img/LoginService.jpg";
+import projImg4 from "../assets/img/project-img4.png";
 import projImg5 from "../assets/img/project-img2.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
@@ -34,7 +34,7 @@ export const Projects = () => {
       title: "Login Service",
       description: "Developed Login Service backend Using JWT Authentication Token",
       imgUrl: projImg4,
-      url: "https://github.com/SakshiCbhavsar/login-service-jwt",
+      url: "https://github.com/SakshiCbhavsar/Login-service-frantend-backend",
     },
     {
       title: "Business Startup",
